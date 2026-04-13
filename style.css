@@ -1,0 +1,9 @@
+.darktoggle {
+    background-color: black;
+    color: white;
+}
+
+.darktoggle .text {
+    color: red;
+    transition: 0.3s;
+}
