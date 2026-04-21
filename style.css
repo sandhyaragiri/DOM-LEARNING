@@ -1,4 +1,4 @@
-.darktoggle {
+/* .darktoggle {
     background-color: black;
     color: white;
 }
@@ -6,4 +6,15 @@
 .darktoggle .text {
     color: red;
     transition: 0.3s;
+} */
+
+/* #btn {
+    padding: 1em;
+    border: none;
+    border-radius: 1em;
+    transition: 0.3s;
 }
+
+#btn:hover {
+    transform: scale(1.1);
+} */
