@@ -26,12 +26,18 @@ function loginSubmit(){
     }
   }
 
+  else {
+    document.getElementById("Epara").innerText = "Looks good";
+  }
+
   if(password.value.length < 8){
     document.getElementById("passwordP").innerText = "Password should be atlleast 8 characters";
    if(password.value === ""){
       document.getElementById("passwordP").innerText = "Password is Empty😐";
     }
   }
+
+ 
 
   else {
     document.getElementById("submit").innerText = "Login Successfully ✔"
