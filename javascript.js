@@ -19,26 +19,26 @@ function loginSubmit(){
      document.getElementById("Lpara").innerText = "Enter last name";
   }
   
-  if(!email.value.includes("@")){
-    document.getElementById("Epara").innerText = `Error you missed the symbol ${"@"}`;
-    if(email.value === ""){
+   if(email.value === ""){
       document.getElementById("Epara").innerText = "Hey You forget to enter email id";
     }
+
+  if(!email.value.includes("@")){
+    document.getElementById("Epara").innerText = `Invalid email`;
   }
 
   else {
     document.getElementById("Epara").innerText = "Looks good";
   }
 
-  if(password.value.length < 8){
-    document.getElementById("passwordP").innerText = "Password should be atlleast 8 characters";
-   if(password.value === ""){
+   if(password.value.length <=5){
+      document.getElementById("passwordP").innerText = "Weak password";
+       if(password.value === ""){
       document.getElementById("passwordP").innerText = "Password is Empty😐";
     }
-  }
+    }
 
  
-
   else {
     document.getElementById("submit").innerText = "Login Successfully ✔"
   }
