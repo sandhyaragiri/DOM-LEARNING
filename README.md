@@ -1,34 +1,25 @@
-# DOM-LEARNING
-Started learning DOCUMENT OBJECT MODEL.
-```javascript
 
-// Today I learned:
-// → addEventListener()
-// → Handling user input in real-time
-// → Changing UI dynamically using JavaScript
+# 📋 Form Validation Practice
 
-// What I built:
-input.addEventListener("input", function () {
-  output.innerText = input.value || "Start Typing bro";
+A simple input form built using **HTML & JavaScript** to practice user input handling and validation.
 
-  if (input.value.length >= 10) {
-    output.style.color = "red";
-  } else {
-    output.style.color = "black";
-  }
-});
+## 🚀 Features
 
-// Key takeaway:
-👉 Websites are not just static pages
-👉 They can "react" to user actions instantly
+* First Name, Last Name, Email, Password fields
+* Basic validation (empty fields, email format, password)
+* Error messages using JavaScript
 
-// Feeling:
-Started simple, but now it actually feels like I'm building real applications 💻✨
+## 🛠️ Tech Used
 
-// Next:
-→ Keyboard events
-→ Small projects
+* HTML
+* JavaScript
 
-#JavaScript #FrontendDevelopment #LearningInPublic #WebDevelopment #CodingJourney
-```
+## 💡 Learning
 
+* DOM manipulation
+* Event handling (`addEventListener`)
+* Form validation basics
+
+## 📌 Note
+
+This project is for practice to improve front-end skills.
